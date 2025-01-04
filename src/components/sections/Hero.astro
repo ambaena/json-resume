@@ -28,7 +28,9 @@ const SOCIAL_ICONS = {
     >
       <h1 class="text-4xl">{name}</h1>
       <h2 class="text-gray-700 font-medium text-lg">{label}</h2>
-      <span class="text-gray-600 flex items-center gap-1 text-sm tracking-tight">
+      <span
+        class="text-gray-600 flex items-center gap-1 text-sm tracking-tight"
+      >
         <WorldMap />
         {city}, {region}
       </span>
@@ -49,7 +51,7 @@ const SOCIAL_ICONS = {
         }
         {
           profiles.map(({ network, url }) => {
-            const Icon = SOCIAL_ICONS[network];
+            const Icon = SOCIAL_ICONS[network as keyof typeof SOCIAL_ICONS];
 
             return (
               <Button href={url}>

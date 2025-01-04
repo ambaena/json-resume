@@ -1,5 +1,20 @@
 ---
 import Section from '@/components/Section.astro';
+import { education } from '@resume';
 ---
 
-<Section title="Education" />
+<Section title="Education">
+  <ul>
+    {
+      education.map(({ institution, area }) => {
+        return (
+          <ul class="text-gray-500 leading-6 break-words ml-5 text-sm list-disc list-inside">
+            <li>
+              <strong>{area}</strong> @ {institution}
+            </li>
+          </ul>
+        );
+      })
+    }
+  </ul>
+</Section>

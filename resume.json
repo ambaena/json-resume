@@ -44,7 +44,7 @@
     },
     {
       "name": "Next Digital Hub",
-      "position": "Data Architect - Platform Engineer",
+      "position": "Senior Data Engineer - Tech Lead",
       "url": "https://www.nextdigital.es",
       "startDate": "2021-05-17",
       "endDate": "2024-02-01",
@@ -65,7 +65,13 @@
       "startDate": "2019-06-01",
       "endDate": "2021-05-17",
       "summary": null,
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Developed multiple use cases (including geospatial analysis) on T-Mobile's Big Data platform using PySpark/Hive, in addition to python/bash in a non-distributed way.",
+        "Migrated the data orchestration from NiFi to Airflow, including deploying and maintaining the Airflow infrastructure.",
+        "Participated in churn detection and clustering projects using PySpark and MLlib.",
+        "Provided infrastructure, including EC2 and RDS on AWS, for cloud-based data processing.",
+        "Administered and maintained Linux on-premises systems, ELK stack deployment and develop on it (also relational databases, Kibana...)."
+      ]
     },
     {
       "name": "Dekra",

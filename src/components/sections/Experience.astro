@@ -1,5 +1,59 @@
 ---
 import Section from '@/components/Section.astro';
+import { work } from '@resume';
 ---
 
-<Section title="Experience" />
+<Section title="Experience">
+  <ul class="flex flex-col gap-5">
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : 'Actual';
+
+          return (
+            <li>
+              <article>
+                <header class="flex justify-between items-start mb-1">
+                  <div>
+                    <h3 class="font-medium text-gray-900">
+                      <a
+                        class="text-gray-900 hover:underline"
+                        href={url}
+                        title={name}
+                        target="_blank"
+                      >
+                        {name}
+                      </a>
+                    </h3>
+                    <h4 class="font-normal text-gray-800">{position}</h4>
+                  </div>
+
+                  <div class="text-gray-500 text-sm min-w-[104px]">
+                    <time datetime={startDate} data-title={startDate}>
+                      {startYear}
+                    </time>
+                    {' - '}
+                    <time datetime={endDate} data-title={endDate}>
+                      {endYear}
+                    </time>
+                  </div>
+                </header>
+
+                <footer>
+                  <p>{summary}</p>
+                  <ul class="text-gray-500 leading-6 break-words ml-5 text-sm list-disc list-inside">
+                    {highlights.map((highlights) => (
+                      <li>{highlights}</li>
+                    ))}
+                  </ul>
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
+</Section>
