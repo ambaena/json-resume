@@ -4,7 +4,7 @@
     "label": "Data Architect focused in Platform Engineering with strongs Analytics Engineering skills",
     "image": "https://avatars.githubusercontent.com/u/27953057?v=4",
     "email": "alfonsombaena@gmail.com",
-    "phone": "+34 666666666",
+    "phone": "666666666",
     "url": "https://alfonsobaena.dev",
     "summary": "Data Architech/Engineer with strong Analytics Engineering skills, problem-solving and passionate about the technical aspects with open experience in leadership, mentoring and strategic business thinking. Committed to the latest technologies and best practices to create architecting cutting-edge data solutions, thereby driving operational excellence and system reliability. Interested in Solution Architecture / Site Reliability Engineering (SRE) within the data domain.",
     "location": {
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "alfonso-baena",
+        "username": "/in/alfonso-baena",
         "url": "https://linkedin.com/in/alfonso-baena"
       },
       {
@@ -62,6 +62,7 @@
     {
       "name": "Future Connections",
       "position": "Data Engineer",
+      "url": "https://futureconnections.com/",
       "startDate": "2019-06-01",
       "endDate": "2021-05-17",
       "summary": null,
@@ -76,12 +77,13 @@
     {
       "name": "Dekra",
       "position": "RF Engineer - Trainee",
+      "url": "https://www.dekra.es",
       "startDate": "2018-11-01",
       "endDate": "2019-06-01",
       "summary": null,
       "highlights": [
         "Automated manual processes with Python/Bash and web-scraping",
-        "Performed software and hardware radiofrequency tests on mobile communication devices (3G, 4G)"
+        "Performed software and hardware radiofrequency tests on mobile devices (3G, 4G)"
       ]
     }
   ],
@@ -100,48 +102,106 @@
     {
       "name": "AWS Certified Cloud Practitioner",
       "issuer": "AWS",
-      "url": "https://certificate.com"
+      "url": "https://www.credly.com/badges/b180c54e-11f3-4fff-87d7-39dad8f328d3"
+    },
+    {
+      "name": "AWS Certified Developer – Associate",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/fe899824-f9dd-4f95-b1f9-9555a6843853"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/48228da5-9c53-4b6f-838a-4d333b30fa6a"
+    },
+    {
+      "name": "AWS Certified Data Engineer – Associate",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/e39b5e5a-7e57-4e07-87b6-36c7dfb6f913"
+    },
+    {
+      "name": "AWS Certified SysOps Administrator – Associate",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/37d9b0c5-f3d7-4efc-8046-045cb3ad1556"
+    },
+    {
+      "name": "AWS Certified Data Analytics – Specialty",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/4318c899-8df1-4e50-bf38-d4007cde29c3"
+    },
+    {
+      "name": "Professional Scrum Master™ I (PSM I)",
+      "issuer": "Scrum",
+      "url": "https://www.credly.com/badges/de322991-7281-4676-be83-5c75efbb0ae5"
+    },
+    {
+      "name": "dbt Analytics Engineering Certification",
+      "issuer": "Dbt",
+      "url": "https://www.credential.net/8a73fabf-ebb5-486f-b500-f0d78fa6fac1#acc.wJNaVSiA"
+    },
+    {
+      "name": "2x Astronomer Certification for Apache Airflow",
+      "issuer": "Airflow",
+      "url": "https://www.credly.com/badges/49ddcfca-c9c5-4e26-af4b-2275d017d725"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate (003)",
+      "issuer": "Terraform",
+      "url": "https://www.credly.com/badges/254119a2-c1ad-43ad-a718-c84421196c67"
     }
   ],
   "skills": [
     {
-      "name": "Coding",
-      "keywords": ["Python", "SQL", "Bash", "TDD", "OOP", "REST"]
+      "name": "Python",
+      "keywords": null
     },
     {
-      "name": "Data Engineering",
-      "keywords": [
-        "Redshift",
-        "dbt",
-        "Airflow",
-        "Data Governance",
-        "Data Mesh",
-        "Clickhouse",
-        "Spark",
-        "PowerBI"
-      ]
+      "name": "SQL",
+      "keywords": null
     },
     {
-      "name": "DevOps",
-      "keywords": [
-        "Gitlab CICD",
-        "Github Actions",
-        "AWS",
-        "Docker",
-        "Kubernetes",
-        "Terraform",
-        "Terragrunt"
-      ]
+      "name": "Bash",
+      "keywords": null
     },
     {
-      "name": "Soft skills",
-      "keywords": [
-        "Agile (SCRUM)",
-        "Leadership",
-        "Mentorship",
-        "Problem-solving",
-        "Strategic thinking"
-      ]
+      "name": "AWS",
+      "keywords": null
+    },
+    {
+      "name": "Terraform",
+      "keywords": null
+    },
+    {
+      "name": "Spark",
+      "keywords": null
+    },
+    {
+      "name": "GitOps",
+      "keywords": null
+    },
+    {
+      "name": "Airflow",
+      "keywords": null
+    },
+    {
+      "name": "dbt",
+      "keywords": null
+    },
+    {
+      "name": "Terraform",
+      "keywords": null
+    },
+    {
+      "name": "Containerization",
+      "keywords": null
+    },
+    {
+      "name": "Leadership",
+      "keywords": null
+    },
+    {
+      "name": "Mentorship",
+      "keywords": null
     }
   ],
   "languages": [

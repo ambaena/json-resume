@@ -1,5 +1,42 @@
 ---
+import { certificates } from '@resume';
+import Airflow from '@/icons/Airflow.astro';
+import AWS from '@/icons/AWS.astro';
+import Dbt from '@/icons/Dbt.astro';
+import Scrum from '@/icons/Scrum.astro';
 import Section from '@/components/Section.astro';
+import Terraform from '@/icons/Terraform.astro';
+
+const ISSUER_ICON = {
+  AWS,
+  Terraform,
+  Airflow,
+  Dbt,
+  Scrum,
+};
 ---
 
-<Section title="Relevant Certificatins" />
+<Section title="Relevant Certifications">
+  <ul class="grid grid-cols-2 ml-2 xs:grid-cols-1 xs:text-center">
+    {
+      certificates.map(({ name, issuer, url }) => {
+        const Icon = ISSUER_ICON[issuer as keyof typeof ISSUER_ICON];
+        return (
+          <ul class="text-gray-500 ml-1 mb-1 text-xs list-inside">
+            <li>
+              <a
+                class="flex gap-2 hover:underline"
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {Icon && <Icon />}
+                {name}
+              </a>
+            </li>
+          </ul>
+        );
+      })
+    }
+  </ul>
+</Section>
