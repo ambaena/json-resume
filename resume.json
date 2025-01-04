@@ -1,0 +1,160 @@
+{
+  "basics": {
+    "name": "Alfonso Manuel Baena González",
+    "label": "Data Architect focused in Platform Engineering with strongs Analytics Engineering skills",
+    "image": "https://avatars.githubusercontent.com/u/27953057?v=4",
+    "email": "alfonsombaena@gmail.com",
+    "phone": "+34 666666666",
+    "url": "https://alfonsobaena.dev",
+    "summary": "Data Architech/Engineer with strong Analytics Engineering skills, problem-solving and passionate about the technical aspects with open experience in leadership, mentoring and strategic business thinking. Committed to the latest technologies and best practices to create architecting cutting-edge data solutions, thereby driving operational excellence and system reliability. Interested in Solution Architecture / Site Reliability Engineering (SRE) within the data domain.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Remote",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "alfonso-baena",
+        "url": "https://linkedin.com/in/alfonso-baena"
+      },
+      {
+        "network": "GitHub",
+        "username": "ambaena",
+        "url": "https://github.com/ambaena"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Next Digital Hub",
+      "position": "Data Architect - Platform Engineer",
+      "url": "https://www.nextdigital.es",
+      "startDate": "2024-02-01",
+      "endDate": null,
+      "summary": null,
+      "highlights": [
+        "Define data governance for a data platform serving over 100 data engineers and analysts, following data mesh principles.",
+        "Maintained and optimized an AWS-based data platform, giving system design and technnical aspects support.",
+        "Led proof-of-concepts with new AWS services and defined their adoption focusing on cost improvements and transitioning to a modern data stack and serverless approach.",
+        "Created documentation and defined frameworks for batch processing methodologies, following DevOps/GitOps philosophies to ensure developer efficiency and experience."
+      ]
+    },
+    {
+      "name": "Next Digital Hub",
+      "position": "Data Architect - Platform Engineer",
+      "url": "https://www.nextdigital.es",
+      "startDate": "2021-05-17",
+      "endDate": "2024-02-01",
+      "summary": null,
+      "highlights": [
+        "Led a squad of Data Engineers/Analysts for Iberia.",
+        "Gathered requirements, designed end-to-end data products and collaborated with cross-functional teams.",
+        "Led dbt standardization (structure, testing, TDD, integrations, and deployment) and promoted the adoption.",
+        "ETL/ELT processes using dbt, airflow, AWS (Redshift, S3, EKS, ECS, EMR...) and visualized in PowerBI service.",
+        "Implemented CI/CD pipelines using Gitlab reducing times from minutes to seconds while reducing costs.",
+        "Mentored and participated in the technical selection of data engineers.",
+        "Experience in a 24/7 on-call support team with over 20 critical services from Iberia Data Platform."
+      ]
+    },
+    {
+      "name": "Future Connections",
+      "position": "Data Engineer",
+      "startDate": "2019-06-01",
+      "endDate": "2021-05-17",
+      "summary": null,
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Dekra",
+      "position": "RF Engineer - Trainee",
+      "startDate": "2018-11-01",
+      "endDate": "2019-06-01",
+      "summary": null,
+      "highlights": [
+        "Automated manual processes with Python/Bash and web-scraping",
+        "Performed software and hardware radiofrequency tests on mobile communication devices (3G, 4G)"
+      ]
+    }
+  ],
+  "volunteer": null,
+  "education": [
+    {
+      "institution": "University of Malaga - UMA",
+      "area": "Bachelor Degree in Telecommunication Technologies Engineering"
+    },
+    {
+      "institution": "University of Cambridge",
+      "area": "Cambridge English: Preliminary (PET)"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Coding",
+      "keywords": ["Python", "SQL", "Bash", "TDD", "OOP", "REST"]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": [
+        "Redshift",
+        "dbt",
+        "Airflow",
+        "Data Governance",
+        "Data Mesh",
+        "Clickhouse",
+        "Spark",
+        "PowerBI"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Gitlab CICD",
+        "Github Actions",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Terragrunt"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "keywords": [
+        "Agile (SCRUM)",
+        "Leadership",
+        "Mentorship",
+        "Problem-solving",
+        "Strategic thinking"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Interactive story with programming challenges to travel to Mars",
+      "highlights": ["Choose your own adventure", "In progress"],
+      "url": "https://mars.codes"
+    }
+  ]
+}

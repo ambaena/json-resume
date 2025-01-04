@@ -1,0 +1,15 @@
+---
+import Section from '@/components/Section.astro';
+
+import { basics } from '@resume';
+const { summary } = basics;
+---
+
+<Section title="About">
+  <p>
+    {summary}
+  </p>
+  <p class="text-center font-thin text-sm mt-5 text-purple-950">
+    <em>"Always curious, always learning"</em>
+  </p>
+</Section>

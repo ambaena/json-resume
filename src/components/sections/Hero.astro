@@ -1,0 +1,75 @@
+---
+import { basics } from '@resume';
+import Image from 'astro/components/Image.astro';
+import Mail from '@/icons/Mail.astro';
+import Phone from '@/icons/Phone.astro';
+import Section from '@/components/Section.astro';
+import Button from '@/components/Button.astro';
+import GitHub from '@/icons/GitHub.astro';
+import LinkedIn from '@/icons/LinkedIn.astro';
+import WorldMap from '@/icons/WorldMap.astro';
+
+const { name, label, image, email, phone, url, summary, location, profiles } =
+  basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS = {
+  GitHub,
+  LinkedIn,
+};
+---
+
+<Section>
+  <div
+    class="flex flex-row items-center justify-between gap-4 xs:flex-col-reverse"
+  >
+    <div
+      class="flex flex-col gap-2 pr-8 xs:justify-center xs:items-center xs:pr-0 xs:text-center"
+    >
+      <h1 class="text-4xl">{name}</h1>
+      <h2 class="text-gray-700 font-medium text-lg">{label}</h2>
+      <span class="text-gray-600 flex items-center gap-1 text-sm tracking-tight">
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <footer class="no-print flex text-gray-600 gap-1 mt-2">
+        {
+          email && (
+            <Button href={`mailto:${email}`}>
+              <Mail />
+            </Button>
+          )
+        }
+        {
+          phone && (
+            <Button href={`tel:${phone}`}>
+              <Phone />
+            </Button>
+          )
+        }
+        {
+          profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <Button href={url}>
+                <Icon />
+              </Button>
+            );
+          })
+        }
+      </footer>
+    </div>
+    <figure
+      class="flex justify-center items-center xs:flex xs:justify-center xs:items-center"
+    >
+      <Image
+        class="rounded-2xl"
+        src={image}
+        alt={name}
+        width={128}
+        height={128}
+      />
+    </figure>
+  </div>
+</Section>
