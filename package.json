@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pdf": "node -e \"const puppeteer = require('puppeteer'); (async () => { const browser = await puppeteer.launch(); const page = await browser.newPage(); await page.goto('file://./dist/index.html'); await page.pdf({ path: './dist/resume.pdf', format: 'Legal', printBackground: true }); await browser.close(); })();\""
+    "pdf": "node scripts/create-pdf.cjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

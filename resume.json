@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Alfonso Manuel Baena González",
-    "label": "Data Architect focused in Platform Engineering with strongs Analytics Engineering skills",
+    "label": "Data Architect focused in Platform Engineering with strongs Analytics Engineering skills.",
     "image": "./me.webp",
     "email": "alfonsombaena@gmail.com",
     "phone": "666666666",
-    "url": "https://alfonsobaena.dev",
+    "url": "alfonsobaena.dev",
     "summary": "Data Architech/Engineer with strong Analytics Engineering skills, problem-solving and passionate about the technical aspects with open experience in leadership, mentoring and strategic business thinking. Committed to the latest technologies and best practices to create architecting cutting-edge data solutions, thereby driving operational excellence and system reliability. Interested in Solution Architecture / Site Reliability Engineering (SRE) within the data domain.",
     "location": {
       "address": "",
@@ -82,8 +82,8 @@
       "endDate": "2019-06-01",
       "summary": null,
       "highlights": [
-        "Automated manual processes with Python/Bash and web-scraping",
-        "Performed software and hardware radiofrequency tests on mobile devices (3G, 4G)"
+        "Automated manual processes with Python/Bash and web-scraping.",
+        "Performed software and hardware radiofrequency tests on mobile devices (3G, 4G)."
       ]
     }
   ],
@@ -214,13 +214,5 @@
       "fluency": "Advanced"
     }
   ],
-  "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
-      "highlights": ["Choose your own adventure", "In progress"],
-      "url": "https://mars.codes"
-    }
-  ]
+  "projects": null
 }
