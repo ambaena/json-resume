@@ -12,8 +12,7 @@
          🎨 Design and 💡 idea based on <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
       </p>
       <p>
-         <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" height="15px" width="auto">
-         Astro implementation based and jsonresume integration based on <a href="https://github.com/midudev/minimalist-portfolio-json/tree/main">midudev</a>
+         👨‍🚀 Astro implementation and jsonresume integration based on <a href="https://github.com/midudev/minimalist-portfolio-json/tree/main">midudev</a>
       </p>
       <p>
          🚀 Deployed in <a href="https://github.com/BartoszJarocki/cv">vercel</a>
