@@ -15,7 +15,7 @@
          👨‍🚀 Astro implementation and jsonresume integration based on <a href="https://github.com/midudev/minimalist-portfolio-json/tree/main">midudev</a>
       </p>
       <p>
-         🚀 Deployed in <a href="https://github.com/BartoszJarocki/cv">vercel</a>
+         🚀 Deployed in <a href="https://vercel.com/">vercel</a>
       </p>
       <p>
          🔖 PDF generation via GitHub Actions based on 🐶 <a href="https://pptr.dev/">Puppeter</a>
