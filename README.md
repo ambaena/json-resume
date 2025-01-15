@@ -18,14 +18,23 @@
          🚀 Deployed in <a href="https://vercel.com/">vercel</a>
       </p>
       <p>
-         🔖 PDF generation via GitHub Actions based on 🐶 <a href="https://pptr.dev/">Puppeter</a>
+         🔖 PDF generation via GitHub Actions based on 🐶 <a href="https://pptr.dev/">Puppeteer</a>
       </p>
       <p>
       </p>
    </b>
-   <hr>
-   <br>
+
 </div>
+
+## 🛠️ Stack
+
+- 👨‍🚀 **[Astro](https://astro.build/)**
+- 🔷 **[Typescript](https://www.typescriptlang.org/)**
+- 🌊 **[Tailwind](https://www.typescriptlang.org/)**
+- ▲ **[Vercel](https://vercel.com/)**
+- 🤖 **[Puppeteer](https://pptr.dev/)**
+
+## 🧙🏻‍♂️ Commands
 
 | Command                    | Action                                           |
 | :------------------------- | :----------------------------------------------- |
