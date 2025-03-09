@@ -6,7 +6,7 @@
     "email": "alfonsombaena@gmail.com",
     "phone": "666666666",
     "url": "alfonsobaena.dev",
-    "summary": "Data Architech/Engineer with strong Analytics Engineering skills, problem-solving and passionate about the technical aspects with open experience in leadership, mentoring and strategic business thinking. Committed to the latest technologies and best practices to create architecting cutting-edge data solutions, thereby driving operational excellence and system reliability. Interested in Solution Architecture / Site Reliability Engineering (SRE) within the data domain.",
+    "summary": "Data Architech/Engineer with strong Analytics Engineering skills, problem-solving and passionate about the technical aspects with open experience in leadership, mentoring and strategic business thinking. Committed to the latest technologies and best practices to create architecting cutting-edge data solutions. Currently focused on platform engineering in the data domain, designing, implementing, and driving the adoption of: Modern Data Stack, Data Mesh, GitOps and everything-as-code platform-based, data governance (catalog, lineage, DQ...) mainly on AWS",
     "location": {
       "address": "",
       "postalCode": "",
@@ -36,7 +36,8 @@
       "endDate": null,
       "summary": null,
       "highlights": [
-        "Define data governance for a data platform serving over 100 data engineers and analysts, following data mesh principles.",
+        "Define data governance for a data platform serving over +150 data engineers and analysts, following data mesh principles.",
+        "Led the decision-making process for the platform’s data governance tool (DataHub, OpenMetadata), including its design, deployment, and implementation on AWS.",
         "Maintained and optimized an AWS-based data platform, giving system design and technnical aspects support.",
         "Led proof-of-concepts with new AWS services and defined their adoption focusing on cost improvements and transitioning to a modern data stack and serverless approach.",
         "Created documentation and defined frameworks for batch processing methodologies, following DevOps/GitOps philosophies to ensure developer efficiency and experience."
