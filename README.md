@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="./public/me.webp" " height="150px" width="auto">
+   <img src="./public/habbo.webp" " height="150px" width="auto">
    <br><br>
    <h1>
       Alfonso Manuel Baena González <code>resume</code>
