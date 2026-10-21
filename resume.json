@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alfonso Manuel Baena González",
-    "label": "Data Architect focused in Platform Engineering with strongs Analytics Engineering skills.",
+    "label": "Platform Engineer · Data Architect",
     "image": "./me.webp",
     "email": "alfonsombaena@gmail.com",
     "phone": "666666666",
     "url": "alfonsobaena.dev",
-    "summary": "Data Architech/Engineer with strong Analytics Engineering skills, problem-solving and passionate about the technical aspects with open experience in leadership, mentoring and strategic business thinking. Committed to the latest technologies and best practices to create architecting cutting-edge data solutions. Currently focused on platform engineering in the data domain, designing, implementing, and driving the adoption of: Modern Data Stack, Data Mesh, GitOps and everything-as-code platform-based, data governance (catalog, lineage, DQ...) mainly on AWS",
+    "summary": "Platform Engineer with a strong background as Data Architect and Analytics Engineer. Focused on building platform foundations mainly on AWS: GitOps and everything-as-code platform-based fan and strong focus on DevEx and team autonomy. Brings deep data domain knowledge to the platform: Modern Data Stack, Data Mesh and data governance. Experience in leadership, mentoring and strategic business thinking, and lately, a little obsessed with the new agentic \"era\".",
     "location": {
       "address": "",
       "postalCode": "",
@@ -36,10 +36,12 @@
       "endDate": null,
       "summary": null,
       "highlights": [
-        "Define data governance for a data platform serving over +150 data engineers and analysts, following data mesh principles.",
+        "Defined data governance for a data platform serving over +150 data engineers and analysts, following data mesh principles.",
         "Led the decision-making process for the platform’s data governance tool (DataHub, OpenMetadata), including its design, deployment, and implementation on AWS.",
-        "Maintained and optimized an AWS-based data platform, giving system design and technnical aspects support.",
-        "Led proof-of-concepts with new AWS services and defined their adoption focusing on cost improvements and transitioning to a modern data stack and serverless approach.",
+        "Contributed to defining and adopting the platform's IaC approach with Atlantis for PR-driven Terraform workflows.",
+        "Deployed and operated platform workloads on Kubernetes (EKS) following GitOps with ArgoCD.",
+        "Drove agentic engineering adoption on the platform",
+        "Led proof-of-concepts with new technologies  and defined their adoption focusing on cost improvements and transitioning to a modern data stack and serverless approach.",
         "Created documentation and defined frameworks for batch processing methodologies, following DevOps/GitOps philosophies to ensure developer efficiency and experience."
       ]
     },
@@ -51,7 +53,7 @@
       "endDate": "2024-02-01",
       "summary": null,
       "highlights": [
-        "Led a squad of Data Engineers/Analysts for Iberia.",
+        "Led a squad of Data Engineers/Analysts.",
         "Gathered requirements, designed end-to-end data products and collaborated with cross-functional teams.",
         "Led dbt standardization (structure, testing, TDD, integrations, and deployment) and promoted the adoption.",
         "ETL/ELT processes using dbt, airflow, AWS (Redshift, S3, EKS, ECS, EMR...) and visualized in PowerBI service.",
@@ -133,7 +135,7 @@
     {
       "name": "ClickHouse Certified Developer",
       "issuer": "ClickHouse",
-      "url": "https://www.credly.com/badges/4318c899-8df1-4e50-bf38-d4007cde29c3"
+      "url": "https://www.credly.com/badges/3dcf75fe-f58e-4cce-bfdd-ccc2c62fa704"
     },
     {
       "name": "Professional Scrum Master™ I (PSM I)",
@@ -178,11 +180,23 @@
       "keywords": null
     },
     {
-      "name": "Spark",
+      "name": "Kubernetes",
       "keywords": null
     },
     {
       "name": "GitOps",
+      "keywords": null
+    },
+    {
+      "name": "Docker",
+      "keywords": null
+    },
+    {
+      "name": "Observability",
+      "keywords": null
+    },
+    {
+      "name": "Agentic Engineering",
       "keywords": null
     },
     {
@@ -194,15 +208,11 @@
       "keywords": null
     },
     {
-      "name": "Terraform",
+      "name": "Spark",
       "keywords": null
     },
     {
-      "name": "Containerization",
-      "keywords": null
-    },
-    {
-      "name": "k8s",
+      "name": "Data Governance",
       "keywords": null
     },
     {
